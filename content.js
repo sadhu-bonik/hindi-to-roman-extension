@@ -140,10 +140,6 @@ if (!window.hasRun) {
 
     const span = document.createElement("span");
     span.textContent = finalString;
-    span.style.backgroundColor = "#e6fffa"; 
-    span.style.color = "#00695c"; 
-    span.style.fontWeight = "bold";
-    span.style.borderBottom = "2px solid #00695c";
 
     range.deleteContents();
     range.insertNode(span);
